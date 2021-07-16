@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+
+/* header */
+.header{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+#header__big{
+    font-size: 40px;
+}
+#header__small{
+    font-size: 20px;
+    color: gray;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+/* form */
+.forms label{
+font-size: 20px;
+}
+.forms{
+    padding-left: 350px;
+    padding-right: 350px;
+    justify-content: space-between;
+}
+.forms input{
+    width: 100%;
+}
+.form__item{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.form__item input{
+    padding: 7px 15px;
+  box-sizing: border-box;
+}
+#form__item__image{
+    margin-right: 75px;
+}
+#form__item__price{
+    margin-right: 95px;
+}
+#form__item__desc{
+    margin-right: 45px;
+}
+#form__item__name{
+    margin-right: 90px;
+}
+
+
+.submit{
+background-color: rgb(62, 62, 192);
+color: white;
+font-weight: bold;
+height: 30px;
+margin-right: 400px;
+}

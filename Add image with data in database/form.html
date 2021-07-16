@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cupcake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+    <h1 id="header__big">Cupcakes World <h1>
+    <h3 id="header__small">Add a new cupcake</h3>
+    </div>
+    <form class="forms" action="connect.php" method="POST" enctype="multipart/form-data">
+        <div class="form__item">
+        <label id="form__item__name">Name</label>
+        <input type="text" name="name" required   minlength="3">
+        </div>
+        <br>
+        <div class="form__item">
+        <label id="form__item__image">Image</label>
+        <input type="file" name="image" id="image">
+    </div>
+        <br>
+        <div class="form__item">
+        <label id="form__item__price">Price</label>
+        <input type="number" name="price" required>
+        </div>
+        <br>
+        <div class="form__item">
+        <label id="form__item__desc">Description</label>
+        <input type="text" name="desc"  minlength="8" required>
+    </div>
+        <br>
+        <input class="submit" type="submit" name="upload" value="Submit">
+        
+    </form>
+
+</body>
+</html>
