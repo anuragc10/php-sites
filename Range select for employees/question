@@ -1,0 +1,11 @@
+Design a database called employee, which contains information like empID,
+Name, department, branch, Salary, Gender. Design a web page which
+contains two textboxes in which user can input salary range. When user
+selects submit button, system should display:
+a. Details of all employees whose salary belongs to input range (ex
+1000-10,000).
+b. List the highest salary profile of each category (male and female).
+c. Display all profiles in descending order according to emp name
+(whose name length is >4).
+
+d. Display the list of employees for each department in order of their
