@@ -1,0 +1,7 @@
+Create student registration page with name, enrolment no, address and so on. If student wants
+to become member of site he has to create his own registration by filling required data on form. Once
+student registered , he can use his login id and password for logging in site. After entering User id and
+password it will verify with the database of user data. If it is correct then it will link to welcome page
+if it is not correct then it will display appropriate message. When user clicks on new user button then
+it will link to registration page. Create proper database. Provide proper validations at server side using
+PHP filter.
