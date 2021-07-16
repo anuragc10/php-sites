@@ -1,0 +1,12 @@
+There are two tables for Blood-donation camp site. Table 1 – list of donors,
+
+their addresses, their blood types and the names of the various blood-
+donation camps with which they are associated. Table 2 contains – the
+
+blood-donation camp's name, and the cities in which they have branches.
+Create GUI, and using database connectivity, for a solving the following
+case: The user can select as many cities as he/she wants, using checkboxes.
+When user presses the “find” button on home.php, the system should display
+the list of donors, their blood types and the blood- donation camps which are
+existent in that particular city. Also, for a blood-type, find all the users in all
+the cities.
